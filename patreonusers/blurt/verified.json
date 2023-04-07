@@ -1,0 +1,62 @@
+[
+{
+"name": "chisdealhd",
+"category": "| Owner | | Witness | | Dev |",
+"description": "Owner of AlloyXuast Community",
+"isPromoted": true,
+"isStaff": true,
+"isWitness": false,
+"isDev": true,
+"isContentCreator": true,
+"isOfficialBlurtDev": false,
+"patreon": {
+"isActive": false,
+"tier": "DONATOR"
+}
+},
+{
+"name": "waffleuncle",
+"category": "| CEO | | Dev |",
+"description": "CEO of AlloyXuast Community",
+"isPromoted": true,
+"isStaff": true,
+"isWitness": false,
+"isDev": true,
+"isContentCreator": true,
+"isOfficialBlurtDev": false,
+"patreon": {
+"isActive": false,
+"tier": "PREMIUM"
+}
+},
+{
+"name": "alloyxuast",
+"category": "| Community Account | | Witness |",
+"description": "AlloyXuast Community Account",
+"isPromoted": true,
+"isStaff": true,
+"isWitness": true,
+"isDev": true,
+"isContentCreator": true,
+"isOfficialBlurtDev": false,
+"patreon": {
+"isActive": false,
+"tier": "LEGEND"
+}
+},
+{
+"name": "shmoogleosukami",
+"category": "| Admin | | Witness | | Dev |",
+"description": "Hive/BLURT/STEEM Manager of AlloyXuast | Admin and DEV of AlloyXuast",
+"isPromoted": true,
+"isStaff": true,
+"isWitness": false,
+"isDev": true,
+"isContentCreator": true,
+"isOfficialBlurtDev": false,
+"patreon": {
+"isActive": false,
+"tier": "MEGA"
+}
+}
+]
