@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirect Example</title>
+</head>
+<body>
+  <script>
+    // Get the current URL
+    var currentUrl = window.location.href;
+    
+    // Get the value of the "url" parameter from the current URL
+    var urlParam = new URLSearchParams(window.location.search).get("url");
+    
+    // If the "url" parameter exists, redirect to that URL
+    if (urlParam) {
+      window.location.href = urlParam;
+    } else {
+      // Otherwise, display an error message
+      document.write("The 'url' parameter was not found in the URL.");
+    }
+  </script>
+</body>
+</html>
