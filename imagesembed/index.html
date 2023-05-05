@@ -37,9 +37,8 @@
             children:[{name:'Jack', age:5}, {name:'Ann', age:8}],
             wife:{name:'Jane Doe', age:28 }
         };
-
-        el.input.val(JSON.stringify(demo,null,4));
-        var json = el.input.val();
+        
+        var json = JSON.stringify(demo,null,4);
 
             var data;
             try{ data = JSON.parse(json); }
