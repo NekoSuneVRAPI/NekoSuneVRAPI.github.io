@@ -1,58 +1,28 @@
 <html>
 <head>
     <title>sample</title>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quicksand" />
-    <link rel="stylesheet" type="text/css" href="/css/pretty-json.css" />
-
-    <!-- lib -->
-    <script type="text/javascript" src="/libs/jquery-1.11.1.min.js" ></script>
-    <script type="text/javascript" src="/libs/underscore-min.js" ></script>
-    <script type="text/javascript" src="/libs/backbone-min.js" ></script>
-
-    <!-- src build -->
-    <script type="text/javascript" src="/build/pretty-json-min.js" ></script>
-
-    <!-- just css for this page example -->
-    <style type="text/css">
-        body{
-            width:700px;
-            border-style: none;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
 </head>
 
 <body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/2.2.1/json2html.min.js"></script>
+ 
 <script>
-    $(document).ready(function() {
-
-        var el = {
-            result: $('#result')
-        };
-
-        var demo = {
-            name:'John Doe',
-            age: 20,
-            children:[{name:'Jack', age:5}, {name:'Ann', age:8}],
-            wife:{name:'Jane Doe', age:28 }
-        };
+    let template = {'<>':'div','html':'${title} ${year}'};
         
-        var json = JSON.stringify(demo,null,4);
-
-            var data;
-            try{ data = JSON.parse(json); }
-            catch(e){ 
-                alert('not valid JSON');
-                return;
-            }
-
-            var node = new PrettyJSON.view.Node({ 
-                el:el.result,
-                data: data,
-                dateFormat:"DD/MM/YYYY - HH24:MI:SS"
-            });
-    });
+    let data = [
+        {"title":"Heat","year":"1995"},
+        {"title":"Snatch","year":"2000"},
+        {"title":"Up","year":"2009"},
+        {"title":"Unforgiven","year":"1992"},
+        {"title":"Amadeus","year":"1984"}
+    ];
+    
+    //native javascript
+    document.write( json2html.render(data,template) );
+    
+    //or with jQuery
+    $("#result").json2html(data,template);
+    
 </script>
 <span id="result"></span>
 </body>
