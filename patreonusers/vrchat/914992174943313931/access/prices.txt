@@ -1,2 +1,12 @@
-Mercury Sexy
-RainfireVT
+----Monthly Prices----
+£1 - Donator
+£5 - Premium
+£10 - Legend
+£15 - MEGA
+----------------------
+Lifetime Prices
+£100 - Donator Lifetime
+£150 - Premium Lifetime
+£200 - Legend Lifetime
+£250 - MEGA Lifetime
+----------------------
