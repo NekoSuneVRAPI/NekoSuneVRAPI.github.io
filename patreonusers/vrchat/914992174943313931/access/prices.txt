@@ -13,3 +13,7 @@ Lifetime Prices
 Payment Accepts
 Stripe, Coinbase, HIVE/HBD, BLURT, STEEM, ZENZO, FLITS, PIVX, DOGECASH, WAX, Revolut, WeChat, Cashapp (United Kingdom Only)
 More Payment Soon Keep Eye
+----------------------
+----------------------
+If Going Pay as Non Patreon/Ko-fi Contact NekoSuneVR in Discord Server What Gateway Want Pay.
+There is no Auto system yet for that
