@@ -10,3 +10,8 @@ Lifetime Prices
 £200 - Legend Lifetime
 £250 - MEGA Lifetime
 ----------------------
+Payment Accepts
+Stripe, Coinbase, HIVE/HBD, BLURT,
+STEEM, ZENZO, FLITS, PIVX, DOGECASH,
+WAX, Revolut, WeChat, Cashapp (United Kingdom Only)
+More Payment Soon Keep Eye
